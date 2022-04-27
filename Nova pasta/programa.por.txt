@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio ()
+	{
+		real venda1,venda2,venda3,venda4,media
+		cadeia vendedor
+		
+		
+		escreva("Digite nome do vendedor: ")
+		leia(vendedor)
+		escreva("Digite a venda 1:")
+		leia(venda1)
+		escreva("Digite a venda 2:")
+		leia(venda2)
+		escreva("Digite a venda 3:")
+		leia(venda3)
+		escreva("Digite a venda 4:")
+		leia(venda4)
+		
+		
+		media = (venda1+venda2+venda3+venda4)/4
+		
+		escreva("O vendedor: " + vendedor + " obteve a media de vendas: "
++ media)		
+		
+		
+		
+		
+		
+	}
+}
